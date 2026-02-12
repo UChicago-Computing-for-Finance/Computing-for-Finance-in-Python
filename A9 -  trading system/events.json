@@ -1,0 +1,247 @@
+[
+  {
+    "timestamp": "2025-11-18T21:07:08.036081",
+    "event_type": "ORDER_CREATED",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 500,
+      "side": "1",
+      "state": "NEW"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.036164",
+    "event_type": "RISK_APPROVED",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 500,
+      "side": "1",
+      "passed": true
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.036235",
+    "event_type": "STATE_CHANGE",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 500,
+      "side": "1",
+      "old_state": "NEW",
+      "new_state": "ACKED"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.036306",
+    "event_type": "STATE_CHANGE",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 500,
+      "side": "1",
+      "old_state": "ACKED",
+      "new_state": "FILLED"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.036377",
+    "event_type": "POSITION_UPDATE",
+    "data": {
+      "symbol": "AAPL",
+      "old_position": 0,
+      "new_position": 500,
+      "order_qty": 500,
+      "order_side": "1"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.036461",
+    "event_type": "ORDER_CREATED",
+    "data": {
+      "symbol": "MSFT",
+      "qty": 1500,
+      "side": "1",
+      "state": "NEW"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.036536",
+    "event_type": "RISK_REJECTED",
+    "data": {
+      "symbol": "MSFT",
+      "qty": 1500,
+      "side": "1",
+      "passed": false,
+      "reason": "Order size 1500 exceeds max order size 1000"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.036620",
+    "event_type": "STATE_CHANGE",
+    "data": {
+      "symbol": "MSFT",
+      "qty": 1500,
+      "side": "1",
+      "old_state": "NEW",
+      "new_state": "REJECTED"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.036725",
+    "event_type": "ORDER_CREATED",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 800,
+      "side": "1",
+      "state": "NEW"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.036821",
+    "event_type": "RISK_APPROVED",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 800,
+      "side": "1",
+      "passed": true
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.036910",
+    "event_type": "STATE_CHANGE",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 800,
+      "side": "1",
+      "old_state": "NEW",
+      "new_state": "ACKED"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.037002",
+    "event_type": "STATE_CHANGE",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 800,
+      "side": "1",
+      "old_state": "ACKED",
+      "new_state": "FILLED"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.037105",
+    "event_type": "POSITION_UPDATE",
+    "data": {
+      "symbol": "AAPL",
+      "old_position": 500,
+      "new_position": 1300,
+      "order_qty": 800,
+      "order_side": "1"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.037211",
+    "event_type": "ORDER_CREATED",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 900,
+      "side": "1",
+      "state": "NEW"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.037320",
+    "event_type": "RISK_REJECTED",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 900,
+      "side": "1",
+      "passed": false,
+      "reason": "New position 2200 would exceed max position \u00b12000 (current: 1300)"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:07:08.037432",
+    "event_type": "STATE_CHANGE",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 900,
+      "side": "1",
+      "old_state": "NEW",
+      "new_state": "REJECTED"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:19:59.572934",
+    "event_type": "ORDER_CREATED",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 500,
+      "side": "1",
+      "state": "NEW"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:19:59.573196",
+    "event_type": "RISK_APPROVED",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 500,
+      "side": "1",
+      "passed": true
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:19:59.573521",
+    "event_type": "STATE_CHANGE",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 500,
+      "side": "1",
+      "old_state": "NEW",
+      "new_state": "ACKED"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:19:59.573684",
+    "event_type": "STATE_CHANGE",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 500,
+      "side": "1",
+      "old_state": "NEW",
+      "new_state": "ACKED"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:19:59.573871",
+    "event_type": "STATE_CHANGE",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 500,
+      "side": "1",
+      "old_state": "ACKED",
+      "new_state": "FILLED"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:19:59.574035",
+    "event_type": "STATE_CHANGE",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 500,
+      "side": "1",
+      "old_state": "ACKED",
+      "new_state": "FILLED"
+    }
+  },
+  {
+    "timestamp": "2025-11-18T21:19:59.574203",
+    "event_type": "POSITION_UPDATE",
+    "data": {
+      "symbol": "AAPL",
+      "old_position": 0,
+      "new_position": 500,
+      "order_qty": 500,
+      "order_side": "1"
+    }
+  }
+]
